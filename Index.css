@@ -116,13 +116,13 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .scrolling-active nav a:hover{
     color: cyan;
 }
 .scrolling-inactive nav a:hover{
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .scrolling-inactive nav{
     transition-property: all;
@@ -265,18 +265,19 @@ nav a:hover{
 }
 .backtohome{
     position: absolute;
-    background: #00ffb7;
+    background: black;
     border: none;
     border-radius: 35px;
     width: 200px;
     height: 50px;
     align-self: center;
     align-content: center;
-    margin: 0 auto;
   }
   .backtohome a{
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
+    padding-top: 1px;
+
   }
   .backtohome img{
       width: 50px;
@@ -286,21 +287,29 @@ nav a:hover{
       bottom: 1px;
       left: 10px;
       cursor: default;
+      filter: invert(100%);
   }
 .button{
     position: absolute;
     margin: 0 auto;
     width: 200px;
-    margin-left: 200px;
-    margin-bottom: 50px;
+    margin-left: -40px;
+    margin-bottom: -1300px;
 }
 .scrolling-active .backtohome{
     transition: all 1s ease;
-    background: #da473a;
+    background: #eb6a01;
+}
+.scrolling-active .backtohome img{
+    transition: all 1s ease;
+    filter: invert(0%);
+}
+.scrolling-active .backtohome a{
+    color: black;
 }
 .scrolling-inactive .backtohome{
     transition: all 1s ease;
-    background: #00ffb7;
+    background: black;
 }
 .Quiz{
     background-color: transparent;
