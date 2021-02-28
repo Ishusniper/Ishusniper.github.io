@@ -300,6 +300,15 @@ nav a:hover{
     position: absolute;
     margin-bottom: -600px;
 }
+.Game{
+    background-color: transparent;
+    display: flex;
+    float: left;
+    position: absolute;
+    padding: 1rem;
+    margin-bottom: 600px;
+    font-size: 20px;
+}
 iframe{
     border-radius: 10px;
     overflow: hidden;
