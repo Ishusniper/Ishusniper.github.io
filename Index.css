@@ -298,7 +298,7 @@ nav a:hover{
 }
 .scrolling-active .backtohome{
     transition: all 1s ease;
-    background: #eb6a01;
+    background: white; 
 }
 .scrolling-active .backtohome img{
     transition: all 1s ease;
