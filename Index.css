@@ -278,6 +278,15 @@ nav a:hover{
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
   }
+  .backtohome img{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      padding: 10px;
+      bottom: 1px;
+      left: 10px;
+      cursor: default;
+  }
 .button{
     position: absolute;
     margin: 0 auto;
