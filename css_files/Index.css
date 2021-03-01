@@ -372,6 +372,11 @@ iframe{
 .parallax{
     overflow: hidden;
 }
+.ourimgs{
+    width: 200px;
+    position: absolute;
+}
+
 
 /* border: 1px dashed cyan;
 border-top: 1px solid cyan;s
