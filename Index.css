@@ -252,7 +252,6 @@ nav a:hover{
     -webkit-text-stroke-color: black;
 }
   .specificcard{
-    background-image: url("covergoal1.png");
     min-height: 36rem;
     width: 90%;
     border-radius: 15px;
