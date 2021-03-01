@@ -102,6 +102,7 @@ section h2 {
     margin-top: 100vh;
     z-index: 100;
     overflow: hidden;
+    height: 150vh;
 }
 .scrolling-active{
     background-color: black;
@@ -249,19 +250,19 @@ nav a:hover{
     padding-bottom: 0;
     font-weight: 500;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+    color: cyan;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color:black;
   }
   .specificinfo h3 {
     font-size: 0.5rem;
     padding: 0rem 0rem;
     font-family:cursive;
-    color: white;
+    color: cyan;
     text-emphasis: 50px;
     font-size: 30px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color:black;
 }
   .specificcard{
     min-height: 36rem;
