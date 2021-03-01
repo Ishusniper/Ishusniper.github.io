@@ -18,17 +18,16 @@ body{
     scrollbar-color: black;
     scroll-behavior: smooth;
 }
-   ::-webkit-scrollbar {
-    display: none;
-   }
+
 header{
     box-shadow: 9px 10px 8px 1px rgba(0,255,243,0.61);
     -webkit-box-shadow: 9px 10px 8px 1px rgba(0,255,243,0.61);
     -moz-box-shadow: 9px 10px 8px 1px rgba(0,255,243,0.61);
     top: 0px;
-    position: sticky;
+    position: fixed;
     background-color: white;
     z-index: 500;
+    width: 100%;
 }
 nav{
     min-height: 10vh;
@@ -66,6 +65,7 @@ section{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 section h2 {
     font-size: 5rem;
@@ -78,6 +78,9 @@ section h2 {
     height: 160vh;
     padding-top: 100px;
     padding-bottom: 1055px;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
 }
 .ABOUT_SDG{
     background: #D66D75;  /* fallback for old browsers */
@@ -85,6 +88,9 @@ section h2 {
     background: linear-gradient(to bottom, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-color: transparent;
     display: flex;
+    position: absolute;
+    z-index: 80;
+    overflow: hidden;
 }
 .CONTACT{
     background: #ee0979;  /* fallback for old browsers */
@@ -92,8 +98,11 @@ section h2 {
     background: linear-gradient(to bottom, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-color: transparent;
     display: flex;
+    position: absolute;
+    margin-top: 100vh;
+    z-index: 100;
+    overflow: hidden;
 }
-
 .scrolling-active{
     background-color: black;
     color:white;
@@ -331,6 +340,21 @@ iframe{
 }
 .specificsectioncontainer{
     height: 110vh;
+}
+#parallax2{
+    margin-top: 1100px;
+    z-index: 100;
+    position: relative;
+    color: white;
+    font-size: 5rem;
+    margin-left: 35%;
+}
+#parallax1{
+    margin-bottom: 2500px;
+    position: fixed;
+}
+.parallax{
+    overflow: hidden;
 }
 
 /* border: 1px dashed cyan;
