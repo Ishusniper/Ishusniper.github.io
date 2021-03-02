@@ -376,6 +376,9 @@ iframe{
     width: 200px;
     position: absolute;
 }
+embed{
+    border-radius: 10px;
+}
 
 
 /* border: 1px dashed cyan;
